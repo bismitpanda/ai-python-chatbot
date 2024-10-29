@@ -1,0 +1,21 @@
+[project]
+name = "ai-assignment1-1"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Bismit Panda", email = "adnaptimsib333@gmail.com" }
+]
+dependencies = [
+    "fastapi>=0.115.4",
+    "nltk>=3.9.1",
+    "scikit-learn>=1.5.2",
+    "numpy>=2.1.2",
+    "uvicorn>=0.32.0",
+]
+requires-python = ">= 3.8"
+classifiers = ["Private :: Do Not Upload"]
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
